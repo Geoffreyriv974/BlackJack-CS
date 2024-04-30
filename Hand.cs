@@ -28,7 +28,6 @@ namespace BlackJack
         {
             get
             {
-
                 int addScore = 0;
 
                 foreach (Card item in HandCard)
@@ -62,7 +61,7 @@ namespace BlackJack
             {
                 Console.WriteLine("\n" + item.Val + " de " + item.Typ);
             }
-            Console.WriteLine("\nVotre Score : " + this.Score);
+            Console.WriteLine("\nScore : " + this.Score);
             Console.WriteLine("-----------------\n");
         }
 
