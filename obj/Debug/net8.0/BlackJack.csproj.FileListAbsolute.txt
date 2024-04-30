@@ -1,0 +1,15 @@
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.AssemblyInfoInputs.cache
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.AssemblyInfo.cs
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.csproj.CoreCompileInputs.cache
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.sourcelink.json
+D:\ecole-it\projets\C#Project\BlackJack-CS\bin\Debug\net8.0\BlackJack.exe
+D:\ecole-it\projets\C#Project\BlackJack-CS\bin\Debug\net8.0\BlackJack.deps.json
+D:\ecole-it\projets\C#Project\BlackJack-CS\bin\Debug\net8.0\BlackJack.runtimeconfig.json
+D:\ecole-it\projets\C#Project\BlackJack-CS\bin\Debug\net8.0\BlackJack.dll
+D:\ecole-it\projets\C#Project\BlackJack-CS\bin\Debug\net8.0\BlackJack.pdb
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.dll
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\refint\BlackJack.dll
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.pdb
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\BlackJack.genruntimeconfig.cache
+D:\ecole-it\projets\C#Project\BlackJack-CS\obj\Debug\net8.0\ref\BlackJack.dll
