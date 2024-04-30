@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\sabot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:sabot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\croupier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:croupier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|d:\\ecole-it\\projets\\c#project\\blackjack-cs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88676573-1F65-48A6-846B-B9BDF903B67B}|BlackJack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:32:50.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAuwIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:30:47.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sabot.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Sabot.cs",
+              "RelativeDocumentMoniker": "Sabot.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Sabot.cs",
+              "RelativeToolTip": "Sabot.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwBkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:08:08.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Hand.cs",
+              "RelativeDocumentMoniker": "Hand.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Hand.cs",
+              "RelativeToolTip": "Hand.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwD0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:33:07.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Croupier.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Croupier.cs",
+              "RelativeDocumentMoniker": "Croupier.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Croupier.cs",
+              "RelativeToolTip": "Croupier.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:33:00.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ecole-it\\projets\\C#Project\\BlackJack-CS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:24:52.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
