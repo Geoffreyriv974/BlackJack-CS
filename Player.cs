@@ -9,9 +9,12 @@ namespace BlackJack
 
     public class Player
     {
+
+        Hand playerHand = new Hand();
         public Player()
         {
             Credit = 1000;
+
         }
 
         public int Credit
@@ -27,8 +30,11 @@ namespace BlackJack
         public void Appel()
         {
             Card drawCard = Sabot.GetInstance().Draw();
+            playerHand.AddCard(drawCard);
 
             Console.WriteLine("\nVous avez reçu une carte : " + drawCard.Val + " de " + drawCard.Typ);
+
+            playerHand.ViewCard();
         }
 
     }

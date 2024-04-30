@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    internal class Croupier
+    public class Croupier
     {
+        public Croupier() 
+        {
+            Hand playerHand = new Hand();
+        }
+
         public void Appel()
         {
             Card drawCard = Sabot.GetInstance().Draw();
