@@ -9,7 +9,7 @@ namespace BlackJack
     internal class Card
     {
 
-        public Card(Value value, Type type)
+        public Card(Value value, Types type)
         {
             this.Val = value;
             this.Typ = type;
@@ -19,7 +19,8 @@ namespace BlackJack
         { 
             get; set; 
         }
-        public Type Typ 
+
+        public Types Typ 
         { 
             get; set; 
         }
@@ -41,7 +42,7 @@ namespace BlackJack
             Roi,
         }
 
-       public enum Type
+       public enum Types
         {
             Trefle,
             Carreaux,
