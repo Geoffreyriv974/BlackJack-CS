@@ -36,7 +36,7 @@ namespace BlackJack
 
             while (start != "yes" && start != "no")
             {
-                Console.Write("\nVoulez vous commencer une partie ? (yes/no)");
+                Console.Write("\nVoulez vous commencer une partie ? (yes/no) ");
                 start = Console.ReadLine();
 
                 if (start == "yes")
@@ -99,6 +99,34 @@ namespace BlackJack
 
             player.Appel();
             croupier.Appel();
+
+            Continue();
+        }
+
+        public void Continue()
+        {
+            string before = "";
+
+            while (before != "no")
+            {
+
+                Console.Write("\nVoulez-vous une nouvelle carte ? (yes/no) ");
+                before = Console.ReadLine();
+
+                if (before == "yes")
+                {
+                    player.Appel();
+                }
+                else if (before == "no")
+                {
+                    Console.WriteLine("\nD'accord");
+                }
+                else
+                {
+                    Console.WriteLine("\nJe n'ai pas compris...");
+                }
+            }
+
         }
 
 
