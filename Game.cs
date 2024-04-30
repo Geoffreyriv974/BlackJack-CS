@@ -120,6 +120,10 @@ namespace BlackJack
                 else if (before == "no")
                 {
                     Console.WriteLine("\nD'accord");
+
+                    Console.WriteLine("\nAu tour du Croupier de tirer !");
+
+                    croupier.Play();
                 }
                 else
                 {
