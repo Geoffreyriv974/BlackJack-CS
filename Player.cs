@@ -13,8 +13,9 @@ namespace BlackJack
         {
             Card drawCard = Sabot.GetInstance().Draw();
 
-
+            Console.WriteLine();
             Console.WriteLine("Vous avez reçu une carte : " + drawCard.Val + " de " + drawCard.Typ);
+            Console.WriteLine();
         }
 
     }
