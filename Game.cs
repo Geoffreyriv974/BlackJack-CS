@@ -13,7 +13,8 @@ namespace BlackJack
 
         Player player = new Player();
         Croupier croupier = new Croupier();
-
+        Hand hand = new Hand();
+        
         public void Run()
         {
 
@@ -131,8 +132,9 @@ namespace BlackJack
                 }
             }
 
-        }
+            hand.CheckWinner();
 
+        }
 
     }
 }
