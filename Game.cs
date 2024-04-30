@@ -17,18 +17,30 @@ namespace BlackJack
             Console.Write("Quel est votre nom ? ");
             string userName = Console.ReadLine();
 
+            Console.WriteLine();
             Console.WriteLine($"Bonjour, {userName}! Je m'appelle Geoffrey, je serai le Croupier lors de cette partie!");
+
+            Sabot.GetInstance().InitSabot(6);
 
             string start = "";
 
             while (start != "yes" && start != "no")
             {
+                Console.WriteLine();
                 Console.Write("Voulez vous commencer une partie ? (yes/no)");
                 start = Console.ReadLine();
 
                 if (start == "yes")
                 {
-                    Console.WriteLine("1");
+                    Console.WriteLine();
+                    Console.WriteLine("Je vais tout d'abord distribuer les cartes!");
+
+                    Player player = new Player();
+                    player.Appel();
+
+                    Croupier croupier = new Croupier();
+                    croupier.Appel();
+
                 }
                 else if (start == "no")
                 {
@@ -41,8 +53,6 @@ namespace BlackJack
                 }
             }
             
-            //Sabot sabot = new Sabot(6);
-            //sabot.Fill();
         }
 
     }
