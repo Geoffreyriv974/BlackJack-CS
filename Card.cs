@@ -27,19 +27,19 @@ namespace BlackJack
 
         public enum Value
         {
-            As,
-            Deux,
-            Trois,
-            Quatre,
-            Cinq,
-            Six,
-            Sept,
-            Huit, 
-            Neuf,
-            Dix,
-            Valet,
-            Dame,
-            Roi,
+            As = 1,
+            Deux = 2,
+            Trois = 3,
+            Quatre = 4,
+            Cinq = 5,
+            Six = 6,
+            Sept = 7,
+            Huit = 8, 
+            Neuf = 9,
+            Dix = 10,
+            Valet = 10,
+            Dame = 10,
+            Roi = 10,
         }
 
        public enum Types
