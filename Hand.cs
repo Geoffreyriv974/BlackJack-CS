@@ -10,6 +10,13 @@ namespace BlackJack
     {
 
         private List<Card> HandCard = new List<Card>();
+        private Hand playerHand;
+        private Hand croupierHand;
+
+        public Hand()
+        {
+
+        }
 
         public void sort() 
         {
