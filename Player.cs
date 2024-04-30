@@ -21,7 +21,7 @@ namespace BlackJack
 
         public void ShowCredit()
         {
-            Console.WriteLine("\nVous possédez un total de " +  Credit);
+            Console.WriteLine("\nVous possédez un total de " +  Credit + " crédits");
         }
 
         public void Appel()
