@@ -42,7 +42,7 @@ namespace BlackJack
                 Card drawCard = Cards[randomCard];
                 Cards.RemoveAt(randomCard);
 
-                Console.WriteLine("Vous avez pioché une carte : " + drawCard.Val +  " de " + drawCard.Typ);
+                Console.WriteLine("Vous avez reçu une carte : " + drawCard.Val +  " de " + drawCard.Typ);
 
                 return drawCard;
             }
