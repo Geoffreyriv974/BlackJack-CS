@@ -27,7 +27,7 @@ namespace BlackJack
 
         public enum Value
         {
-            As = 1,
+            As = 11,
             Deux = 2,
             Trois = 3,
             Quatre = 4,
