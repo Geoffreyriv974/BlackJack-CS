@@ -57,7 +57,6 @@ namespace BlackJack
                 {
                     Card card = new Card(value, type); 
                     Cards.Add(card);
-                    Console.WriteLine(card.Val + " de " + card.Typ);
                 }
             }
 
