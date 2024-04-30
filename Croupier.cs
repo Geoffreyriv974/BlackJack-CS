@@ -9,29 +9,25 @@ namespace BlackJack
     public class Croupier
     {
 
-        Hand playerHand = new Hand();
-
-        public Croupier() 
-        {
-            Hand playerHand = new Hand();
-        }
+        Hand croupierHand = new Hand();
 
         public void Appel()
         {
             Card drawCard = Sabot.GetInstance().Draw();
-            playerHand.AddCard(drawCard);
+            croupierHand.AddCard(drawCard);
 
             Console.WriteLine("\n***Le Croupier a reçu une carte : " + drawCard.Val + " de " + drawCard.Typ + "***");
 
-            playerHand.ViewCard();
+            croupierHand.ViewCard();
         }
 
         public void Play()
         {
-            while (playerHand.Score < 17) 
+            while (croupierHand.Score < 17) 
             {
                 Appel();
             }
+
         }
 
     }
