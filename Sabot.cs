@@ -9,21 +9,26 @@ using static BlackJack.Card;
 
 namespace BlackJack
 {
-    internal class Sabot
+    public sealed class Sabot
     {
+        private static Sabot _instance;
 
         private Random random = new Random();
-        public List<Card> Cards = new List<Card>();
+        private List<Card> Cards = new List<Card>();
 
-
-        public Sabot(int NumberDeck)
+        public static Sabot GetInstance()
         {
-            
+            if (_instance == null)
+                _instance = new Sabot();
+            return _instance;
+        }
+
+        public void InitSabot(int NumberDeck)
+        {  
             for (int i = 1; i < NumberDeck; i++)
             {
                 Fill();
             }
-
         }
 
 
@@ -41,8 +46,6 @@ namespace BlackJack
 
                 Card drawCard = Cards[randomCard];
                 Cards.RemoveAt(randomCard);
-
-                Console.WriteLine("Vous avez reçu une carte : " + drawCard.Val +  " de " + drawCard.Typ);
 
                 return drawCard;
             }
