@@ -43,9 +43,6 @@ namespace BlackJack
                 {
                     PuttingCredit();
 
-                    player.Appel();
-                    croupier.Appel();
-
                 }
                 else if (start == "no")
                 {
@@ -62,25 +59,46 @@ namespace BlackJack
 
         public void PuttingCredit()
         {
-            Console.WriteLine("\nJe vais tout d'abord distribuer les cartes!");
 
             player.ShowCredit();
 
-            Console.WriteLine("Combien de crédit voulez-vous miser ? ");
-            int putting = Console.Read();
+            string stringPutting = "";
+            int putting;
 
-            if (putting == 0)
+            do
             {
-                Console.WriteLine("\nVous devez obligatoire misez des crédits !");
-            }
-            else if (putting > player.Credit)
-            {
-                Console.WriteLine("\nVous ne possédez pas asser de crédits !");
-            }
-            else
-            {
-                Console.WriteLine("\nJe n'ai pas compris...");
-            }
+
+                Console.Write("Combien de crédit voulez-vous miser ? ");
+                stringPutting = Console.ReadLine();
+
+                putting = int.Parse(stringPutting);
+
+                if (putting == 0)
+                {
+                    Console.WriteLine("\nVous devez obligatoire misez des crédits !");
+                }
+                else if (putting > player.Credit)
+                {
+                    Console.WriteLine("\nVous ne possédez pas asser de crédits !");
+                }
+                else
+                {
+                    Console.WriteLine("\nVous avez misez un total de " + putting + " crédits");
+                    Console.WriteLine("-----------------------------------------------------\n");
+
+                    Distribution();
+                }
+
+            } while (putting == 0 && putting > player.Credit);
+
+        }
+
+        public void Distribution()
+        {
+            Console.WriteLine("\nJe vais tout d'abord distribuer les première cartes !");
+
+            player.Appel();
+            croupier.Appel();
         }
 
 
