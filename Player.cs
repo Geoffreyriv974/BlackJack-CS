@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    internal class Player
+    public class Player
     {
+
+        public void Appel()
+        {
+            Card drawCard = Sabot.GetInstance().Draw();
+
+
+            Console.WriteLine("Vous avez reçu une carte : " + drawCard.Val + " de " + drawCard.Typ);
+        }
+
     }
 }
